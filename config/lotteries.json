@@ -1,0 +1,17 @@
+{
+    "megamillions": {
+        "numbers": 5,
+        "max_number": 70,
+        "special_name": "MegaBall",
+        "special_max": 25,
+        "csv": "data/megamillions.csv"
+    },
+
+    "powerball": {
+        "numbers": 5,
+        "max_number": 69,
+        "special_name": "PowerBall",
+        "special_max": 26,
+        "csv": "data/powerball.csv"
+    }
+}
