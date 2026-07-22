@@ -16,3 +16,5 @@ predict.py \
 
 python predict.py --game megamillions --method hot
 python predict.py --game powerball --method hot
+
+python3 -m tests.test_pair  

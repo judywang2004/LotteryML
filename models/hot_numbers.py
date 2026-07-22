@@ -10,9 +10,11 @@ METHOD_NAME = "hot"
 from models.registry import register
 
 def predict(game,
-            total_predictions=20):
+            total_predictions=20,
+            df=None):
 
-    df = load_lottery(game)
+    if df is None:
+        df = load_lottery(game)
 
     freq = number_frequency(df)
 

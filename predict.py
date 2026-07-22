@@ -6,6 +6,8 @@ import argparse
 
 import models.hot_numbers
 import models.frequency
+import strategies.pair
+import strategies.explainable
 
 from models.registry import (
     get_model,
